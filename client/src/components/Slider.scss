@@ -1,0 +1,53 @@
+.slides{
+    position: relative;
+}
+.cart{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(32, 143, 202);
+    border-radius: 10px;
+    z-index: 2;
+    margin-top: 720px;
+    margin-left: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.carousel__text{
+    width: 600px;
+    position: absolute;
+    left:270px;
+    bottom: 350px;
+    text-align: start;
+    color: black;
+    line-height: 30px;
+
+}
+.carousel__text h2{
+    font-size: 63px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+.carousel__text p{
+    margin-top: 20px;
+    line-height: 15px;
+    letter-spacing:1px;
+    font-size: 14px;
+}
+.carousel__text span{
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+.carousel__text button {
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    background: #7180e092;
+    color: white;
+    padding: 10px 25px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  }
+  

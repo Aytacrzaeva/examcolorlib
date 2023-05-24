@@ -1,0 +1,70 @@
+.products {
+  width: 100%;
+  padding: 100px 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.products1 {
+  position: relative;
+  padding: 30px;
+  width: 30%;
+  height: 300px;
+  border: 1px solid rgba(181, 179, 179, 0.368);
+  background-image: url(https://preview.colorlib.com/theme/cozastore/images/banner-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  p {
+    font-size: 14px;
+  }
+  &:hover .shadows {
+    opacity: 1;
+  }
+}
+
+.card2 {
+  padding: 30px;
+  width: 30%;
+  height: 300px;
+  border: 1px solid rgba(181, 179, 179, 0.368);
+  background-image: url(https://preview.colorlib.com/theme/cozastore/images/banner-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  p {
+    font-size: 14px;
+  }
+  &:hover .shadows {
+    opacity: 1;
+  }
+}
+.card3 {
+  padding: 30px;
+  width: 30%;
+  height: 300px;
+  border: 1px solid rgba(181, 179, 179, 0.368);
+  background-image: url(https://preview.colorlib.com/theme/cozastore/images/banner-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  p {
+    font-size: 14px;
+  }
+  &:hover .shadows {
+    opacity: 1;
+  }
+}
+
+.shadows {
+  opacity: 0;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #7180e092;
+  transition: 0.3s linear;
+}
